@@ -1,0 +1,58 @@
+/* dark teal: 105266
+light teal: 187996
+dark purple: 272635
+light purple: 503859
+whiteish: F2F4FF */
+
+body {
+    background-image: url("fadedscales.png");
+    background-repeat: repeat;
+    font-family: 'Open Sans',
+    sans-serif;
+}
+
+.navbar {
+    background-color: #272635;
+    border-bottom: #187996 thick solid;
+}
+
+.navbar-brand {
+    background-color: #105266;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    font-family: 'Overlock',
+    cursive;
+    font-weight: bold;
+    font-size: x-large;
+    color: #F2F4FF;
+}
+
+h1 {
+    color: #105266;
+    font-weight: bold;
+    font-family: 'Overlock',
+    cursive;
+}
+
+.pgBody {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F2F4FF;
+    border-radius: 5px;
+    border: thin solid #503859;
+}
+
+.media img {
+    border: thin solid #272635;
+    border-radius: 5px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    margin-top: 2rem;
+    width: 100%;
+    background-color: #272635;
+    border-top: #187996 thick solid;
+}
