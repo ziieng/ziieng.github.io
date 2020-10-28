@@ -43,9 +43,32 @@ h1 {
     border: thin solid #503859;
 }
 
-.media img {
+.profileImg {
+    overflow: hidden;
+}
+
+.profileImg img {
     border: thin solid #272635;
     border-radius: 5px;
+}
+
+.portCard {
+    border: thin solid #272635;
+    background-color: #F2F4FF;
+}
+
+body hr {
+    border: thin dashed #503859;
+}
+
+.portCard img {
+    border: thin solid #187996;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+dl dt {
+    text-align: right !important;
 }
 
 .footer {
