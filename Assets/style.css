@@ -21,6 +21,11 @@ body {
     border-bottom: #187996 thick solid;
 }
 
+.navbar-collapse {
+    background-color: #272635;
+    text-align: center;
+}
+
 .navbar-brand {
     background-color: #105266;
     padding-left: 1rem;
@@ -66,21 +71,21 @@ body hr {
     background-color: #F2F4FF;
     margin-left: 10px;
     margin-right: 10px;
-    }
+}
 
-    @media (min-width: 768px) {
-        .portCard {
-            min-width: 40%;
-            max-width: 45%;
-        }
+@media (min-width: 768px) {
+    .portCard {
+        min-width: 40%;
+        max-width: 45%;
     }
+}
 
-    .card-body .card-title {
-        font-family: 'Overlock',
-            cursive;
-        color: #105266;
-        font-weight: bold;
-        text-align: center;
+.card-body .card-title {
+    font-family: 'Overlock',
+        cursive;
+    color: #105266;
+    font-weight: bold;
+    text-align: center;
 }
 
 .portCard img {
@@ -112,7 +117,13 @@ body hr {
 }
 
 dl dt {
-    text-align: right !important;
+    text-align: left !important;
+}
+
+@media (min-width: 768px) {
+    dl dt {
+        text-align: right !important;
+    }
 }
 
 .cont {
