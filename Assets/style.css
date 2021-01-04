@@ -160,3 +160,23 @@ dl dt {
 .pgBody a:active {
     color: #105266;
 }
+
+/* unvisited link */
+.pgBody .portCard a:link {
+    color: #ffffff;
+}
+
+/* visited link */
+.pgBody .portCard a:visited {
+    color: #F2F4FF;
+}
+
+/* mouse over link */
+.pgBody .portCard a:hover {
+    color: #ffffff;
+}
+
+/* selected link */
+.pgBody .portCard a:active {
+    color: #ffffff;
+}
