@@ -18,7 +18,7 @@ body {
     height: 4rem;
     z-index: 2000;
     background-color: #272635;
-    border-bottom: #187996 thick solid;
+    border-bottom: #105266 thick solid;
 }
 
 .navbar-collapse {
@@ -27,7 +27,7 @@ body {
 }
 
 .navbar-brand {
-    background-color: #105266;
+    background-color: #187996;
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 10px;
@@ -39,7 +39,7 @@ body {
 }
 
 h1 {
-    color: #105266;
+    color: #187996;
     font-weight: bold;
     font-family: 'Overlock',
         cursive;
@@ -139,4 +139,24 @@ dl dt {
     padding-bottom: 1rem;
     background-color: #272635;
     border-top: #187996 thick solid;
+}
+
+/* unvisited link */
+.pgBody a:link {
+    color: #187996;
+}
+
+/* visited link */
+.pgBody a:visited {
+    color: #503859;
+}
+
+/* mouse over link */
+.pgBody a:hover {
+    color: #105266;
+}
+
+/* selected link */
+.pgBody a:active {
+    color: #105266;
 }
